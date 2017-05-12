@@ -1,0 +1,61 @@
+ 
+html{
+  background-image: url("../img/rojo.jpg");
+  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+  width: 70%;
+  margin: 0 auto;
+}
+
+h2{
+  padding-top: 30px;
+  text-align: center;
+}
+ h1{
+    text-align: center;
+    color: #FD0063;
+    text-shadow: 5px 5px 4px #D693BD;
+  }
+
+h1 span span{
+  font-size: 50px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li{
+  font-size: 20px;
+  padding-right:  19px;
+  margin-right: 80px;
+  display: inline-block; /*en bloque o en linea*/
+  font-style: italic;
+}
+ul li a:link,
+ul li a:active,
+ul li a:visited{
+  color: black;
+}
+
+img{
+  padding-left: 20px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+   margin: 0 auto;
+
+}
+
+
+
+/*chmod 644 img/"ruta de la imagen"*/

@@ -1,0 +1,124 @@
+/*
+ * Colores obtenidos de:
+ *    http://www.colorcombos.com/color-schemes/7625/ColorCombo7625.html
+ *
+ */
+/***************************/
+/** Reglas para etiquetas **/
+/***************************/
+ h1{
+    text-align: center;
+    border-top-width: 2px;
+    border: 2px double #BDAEC6;
+    color: #FFFF00 ;
+    text-shadow: 5px 5px 4px #ADFF2F ;
+  }
+  h2{
+    margin-left: 25px;
+    font-family: "Cambria", monospace;
+  }
+  h2 span{
+    font-size: 30px;
+    padding: 0px;
+    vertical-align: middle;
+    color: ;
+    }
+  p{
+    text-align: justify;
+    font-family: "Cambria",sans-serif;
+    font-size: 19px;
+    margin: 25px;
+  }
+  img{
+    width: 250px;
+    margin: 20px;
+    border-style: dashed;
+    float:right;
+  }
+ #disqus_thread{
+   padding: 25px;
+ }
+  .esfinge {
+       width: 960px;
+       margin: 0 auto;
+       background-image: url("../img/tt.jpg");
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+  }
+  .cont{
+    overflow: hidden;
+  }
+  .cont h1{
+    text-align: center;
+    font-family: "Palatino", serif;
+  }
+  .m1,
+  .menu{
+    float: left;
+    width: 20%;
+
+  }
+  .m1 ul,
+  .menu ul{
+    font-size: 22px;
+    font-variant: small-caps;
+    font-family: Calibri,"Garamond",monospace;
+    list-style-type: none;
+  }
+  .m1 ul li,
+  .menu ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .m1 ul li a:active,
+  .m1 ul li a:visited{
+    color: #ff1493;
+  }
+  .menu ul li a:active{
+    color: blue;
+  }
+  .menu ul li a:visited{
+    color: purple;
+  }
+  .texto{
+    float: right;
+    width: 80%;
+    /*background-color: #bdb76b;*/
+  }
+  .es{    
+    width: 300px;
+    margin: 20px;
+    border-style:groove;
+    float: right;
+    
+  }
+ 
+   .x{
+    width: 300px
+    margin: 20px;
+    border-style:inset;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+  em{
+    font-size: 22px;
+    font-family: Calibri,"Garamond",monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+    
+  }
+  .glos{
+    border-style:inset;
+     border-bottom-left-radius: 20%;
+    text-align: justify;
+    float: left;
+       
+  }
+  .palabras{
+   float: right;
+       
+  }
