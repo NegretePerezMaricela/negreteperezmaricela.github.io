@@ -1,61 +1,58 @@
- 
-html{
-  background-image: url("../img/rojo.jpg");
-  background-position: center center;
-	  background-repeat: no-repeat;
-	  background-attachment: fixed;
-    background-size: cover;
-}
-
-body{
-  width: 70%;
+ body {
+  width: 960px;
   margin: 0 auto;
+ 
+  }
+
+h1{
+  text-align: center;
+  font-family:"Times",sans-serif;
+  color: #9D538E;
+
 }
 
 h2{
-  padding-top: 30px;
-  text-align: center;
-}
- h1{
-    text-align: center;
-    color: #FD0063;
-    text-shadow: 5px 5px 4px #D693BD;
-  }
+  text-align:left;
+  font-family:"verdana",serif;
+   padding-right: 50px;
+   color:  	#808000;
+   float: left;
 
-h1 span span{
-  font-size: 50px;
-  padding: 0px;
-  vertical-align: middle;
+  
+}
+ul{
+  margin-left: 10px;
+  font: italic 20px "Lucida Console",monospace;
 }
 
-nav {
-  list-style-type: none;
-  text-align: center;
+ul li a:active{
+  color: purple;
 }
-
-ul li{
-  font-size: 20px;
-  padding-right:  19px;
-  margin-right: 80px;
-  display: inline-block; /*en bloque o en linea*/
-  font-style: italic;
-}
-ul li a:link,
-ul li a:active,
 ul li a:visited{
-  color: black;
+  color: #4B0082;
 }
 
 img{
-  padding-left: 20px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
-   margin: 0 auto;
-
+  width: 235px;
+  margin:20px 30px 0px 20px;
+  border-radius: 20%;
+  float:left;
 }
 
+html{
+   background-position: center center;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+    background-size: cover;
+   background-image: url("../img/tene.jpg");
+}
+.primero{
+  width: 50%;
+  float:right;
+ 
+}
+.segundo{
+  width: 50%;
+  float: right;
 
-
-/*chmod 644 img/"ruta de la imagen"*/
+}

@@ -1,16 +1,8 @@
-  /*
- * Colores obtenidos de:
- *    http://www.colorcombos.com/color-schemes/7625/ColorCombo7625.html
- *
- */
-/***************************/
-/** Reglas para etiquetas **/
-/***************************/
  
 .ti1 ul {
   list-style-type: none;
   text-align: left;
-    background-image: url("../img/oto.jpg");
+  
 }
 
 .ti1 li {
@@ -37,9 +29,10 @@ border-color: white;
     text-align: justify;
     font-family: "Cambria",sans-serif;
     font-size: 19px;
-    margin: 30px;
+    margin: 25px;
   }
-  img{
+ 
+ img{
     width: 250px;
     margin: 20px;
     border-style: dashed;
@@ -49,10 +42,11 @@ border-color: white;
  #disqus_thread{
    padding: 25px;
  }
+ 
   .esfinge {
        width: 960px;
        margin: 0 auto;
-       background-image: url("../img/uno.jpeg");
+       background-image: url("../img/alan.jpg");
        background-position: center center;
        background-repeat: no-repeat;
        background-attachment: fixed;
@@ -98,12 +92,12 @@ border-color: white;
   }
   .texto{
     float: right;
-    width: 80%;
-    /*background-color: #bdb76b;*/
+    color: #8b0000;
+        /*background-color: #bdb76b;*/
   }
   .es{    
     width: 300px;
-    margin: 20px;
+    margin: 30px;
     border-style:groove;
     float: right;
     
@@ -118,27 +112,28 @@ border-color: white;
   }
   .glos{
         text-align: justify;
-         width: 10%; 
-        
+	float:left;	
+	width:50%;
+  }
+  .otro{
+        text-align: justify;
+	float:right
+  }
+  
+  
+  .otro1{
+        text-align: justify;
+	float:left;
+	width:50%;
   }
  
  body{
-       background-color:#8b4513;   
-}
-
-
-
-ul li{
-  font-size: 20px;
-  padding-right:  19px;
-  margin-right: 80px;
-  margin-left: 40px;
-  display: inline-block; /*en bloque o en linea*/
-  font-style: italic;
+   
+       
+       
 }
 ul li a:link,
 ul li a:active,
 ul li a:visited{
   color: #ffd700;
-  float: right;
-}
+  }
