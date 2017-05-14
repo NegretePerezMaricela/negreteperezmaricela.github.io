@@ -82,7 +82,7 @@ border-color: white;
   }
   .m1 ul li a:active,
   .m1 ul li a:visited{
-    color: #ffd700;
+    color: black;
   }
   .menu ul li a:active{
     color: blue;
@@ -135,5 +135,5 @@ border-color: white;
 ul li a:link,
 ul li a:active,
 ul li a:visited{
-  color: #ffd700;
+  color: black;
   }
